@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: terraacr2025prod.azurecr.io/myapp:latest  # Ensure the correct image path
+        image: terraacr2025prod.azurecr.io/myapp:20250206104911
         ports:
         - containerPort: 80
       imagePullSecrets:
