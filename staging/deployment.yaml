@@ -19,4 +19,4 @@ spec:
         ports:
         - containerPort: 80
       imagePullSecrets:
-      - name: acr-secret-staging
+      - name: acr-secret-stage
