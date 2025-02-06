@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
-  namespace: prod
+  namespace: default
 spec:
   replicas: 3
   selector:
@@ -19,4 +19,4 @@ spec:
         ports:
         - containerPort: 80
       imagePullSecrets:
-      - name: acr-secret
+      - name: acr-secret-prod
